@@ -67,7 +67,13 @@ const FooterOne = () => {
                 <div className="footer__area-widget-company">
                   <p>
                     <Link href="https://google.com/maps">
-                      8502 Preston Rd. Inglewood, Maine 98380 US
+                      Artem Limited
+                      <br />
+                      Unit C, 7/F, Queen’s Centre,
+                      <br />
+                      58-64 Queen’s Road East,
+                      <br />
+                      Hong Kong SAR
                     </Link>
                   </p>
                   <div className="social__icon mt-60">
@@ -83,17 +89,17 @@ const FooterOne = () => {
                     <h6>Phone</h6>
                     <div className="footer__area-widget-info mb-35">
                       <p>
-                        <Link href="tel:+12(456)65878">+12(456)658 78</Link>
+                        <Link href="tel:+49 1724817216">+49 1724817216</Link>
                       </p>
                       <p>
-                        <Link href="tel:+12(518)45145">+12(518)451 45</Link>
+                        <Link href="tel:+852 67674122">+852 67674122 (HK)</Link>
                       </p>
                     </div>
                     <h6>Email</h6>
                     <div className="footer__area-widget-info">
                       <p>
-                        <Link href="mailto:hello.help@gmail.com">
-                          hello.help@gmail.com
+                        <Link href="mailto:nanxi.ding@artem.earth">
+                          nanxi.ding@artem.earth
                         </Link>
                       </p>
                     </div>
@@ -105,16 +111,10 @@ const FooterOne = () => {
                     <div className="footer-widget-menu">
                       <ul>
                         <li>
-                          <Link href="/about-us">About Us</Link>
+                          <Link href="/cbam">CBAM</Link>
                         </li>
                         <li>
-                          <Link href="/blog">Blog</Link>
-                        </li>
-                        <li>
-                          <Link href="/testimonial">Testimonials</Link>
-                        </li>
-                        <li>
-                          <Link href="/faq">Faqs</Link>
+                          <Link href="/team">Team</Link>
                         </li>
                         <li>
                           <Link href="/contact">Contact Us</Link>
@@ -125,7 +125,7 @@ const FooterOne = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 lg-mt-25">
+            {/* <div className="col-lg-4 col-md-6 lg-mt-25">
               <div className="footer__area-widget">
                 <h6>Subscribe</h6>
                 <div className="footer__area-widget-subscribe">
@@ -146,7 +146,7 @@ const FooterOne = () => {
                   </form>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="copyright__area lg-t-center">
@@ -162,10 +162,10 @@ const FooterOne = () => {
                 <div className="copyright__area-menu t-right lg-t-center lg-mt-5">
                   <ul>
                     <li>
-                      <Link href="/contact-two">Privacy & Policy</Link>
+                      <Link href="#">Privacy & Policy</Link>
                     </li>
                     <li>
-                      <Link href="/contact-two">Terms and Conditions</Link>
+                      <Link href="#">Terms and Conditions</Link>
                     </li>
                   </ul>
                 </div>
