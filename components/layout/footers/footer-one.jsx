@@ -1,8 +1,7 @@
 import Social from "@/components/data/social";
 import Link from "next/link";
 import logo from "../../../public/assets/img/logo.png";
-import ctaBg from "../../../public/assets/img/shape/shape-6.png";
-import avatar from "../../../public/assets/img/avatar/support.png";
+
 import footerBg from "../../../public/assets/img/shape/shape-13.png";
 
 const FooterOne = () => {

@@ -138,3 +138,38 @@ ul {
   }
 }
 
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./components/pages/homes/home/UnderConstruction.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************/
+/* pages/UnderConstruction.module.css */
+.UnderConstruction_container__HgYdX {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.UnderConstruction_main__TR6P9 {
+  padding: 5rem 0;
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.UnderConstruction_title__BtHnD {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.UnderConstruction_description__oy6jN {
+  margin: 4rem 0;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
