@@ -22,11 +22,7 @@ const SideBar = ({ isOpen, setIsOpen, addClass }) => {
             <img className="logo_three" src={logo4.src} alt="logo" />
           </Link>
         </div>
-        <p>
-          The insurance company assumes the financial risk of covering these
-          events in exchange for the premiums paid by the policyholder. There
-          are many different types of insurance,
-        </p>
+        <p></p>
         <div className="header__area-menubar-right-sidebar-popup-contact">
           <h4 className="mb-30">Get In Touch</h4>
           <div className="header__area-menubar-right-sidebar-popup-contact-item">
@@ -36,7 +32,8 @@ const SideBar = ({ isOpen, setIsOpen, addClass }) => {
             <div className="header__area-menubar-right-sidebar-popup-contact-item-content">
               <span>Call Now</span>
               <h6>
-                <Link href="tel:+125(895)658568">+125 (895) 658 568</Link>
+                <Link href="tel:+49 1724817216">+49 1724817216 (EU)</Link>
+                <Link href="tel:+852 67674122">+852 67674122 (HK)</Link>
               </h6>
             </div>
           </div>
@@ -47,8 +44,8 @@ const SideBar = ({ isOpen, setIsOpen, addClass }) => {
             <div className="header__area-menubar-right-sidebar-popup-contact-item-content">
               <span>Quick Email</span>
               <h6>
-                <Link href="mailto:info.help@gmail.com">
-                  info.help@gmail.com
+                <Link href="mailto:nanxi.ding@artem.earth">
+                  nanxi.ding@artem.earth
                 </Link>
               </h6>
             </div>
@@ -61,15 +58,19 @@ const SideBar = ({ isOpen, setIsOpen, addClass }) => {
               <span>Office Address</span>
               <h6>
                 <Link href="https://google.com/maps" target="_blank">
-                  PV3M+X68 Welshpool United Kingdom
+                  Artem Limited
+                  <br />
+                  Unit C, 7/F, Queen’s Centre,
+                  <br />
+                  58-64 Queen’s Road East,
+                  <br />
+                  Hong Kong SAR
                 </Link>
               </h6>
             </div>
           </div>
         </div>
-        <div className="header__area-menubar-right-sidebar-popup-social social__icon">
-          <Social />
-        </div>
+        <div className="header__area-menubar-right-sidebar-popup-social social__icon"></div>
       </div>
       <div className={`sidebar-overlay ${isOpen ? "show" : ""}`}></div>
     </>

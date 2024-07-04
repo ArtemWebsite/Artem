@@ -22,27 +22,28 @@ const HeaderOne = () => {
               <div className="topBar__one-left lg-t-center">
                 <ul>
                   <li>
-                    <Link href="mailto:need.help@gmail.com">
-                      <i className="flaticon-envelope"></i>need.help@gmail.com
+                    <Link href="mailto:nanxi.ding@artem.earth">
+                      <i className="flaticon-envelope"></i>
+                      nanxi.ding@artem.earth
                     </Link>
                   </li>
                   <li>
                     <Link href="https://google.com/maps">
-                      <i className="flaticon-placeholder"></i>2464 Royal Ln.
-                      Mesa, New Jersey 45463
+                      <i className="flaticon-placeholder"></i>Unit C, 7/F,
+                      Queen’s Centre,58-64 Queen’s Road East,Hong Kong SAR
                     </Link>
                   </li>
                 </ul>
               </div>
             </div>
-            <div className="col-lg-4">
+            {/* <div className="col-lg-4">
               <div className="topBar__one-right t-right lg-t-center">
                 <div className="topBar__one-right-social">
                   <h6>Follow Us</h6>
                   <Social />
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
