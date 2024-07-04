@@ -76,9 +76,7 @@ const FooterOne = () => {
                       Hong Kong SAR
                     </Link>
                   </p>
-                  <div className="social__icon mt-60">
-                    <Social />
-                  </div>
+                  <div className="social__icon mt-60"></div>
                 </div>
               </div>
             </div>
@@ -93,14 +91,6 @@ const FooterOne = () => {
                       </p>
                       <p>
                         <Link href="tel:+852 67674122">+852 67674122 (HK)</Link>
-                      </p>
-                    </div>
-                    <h6>Email</h6>
-                    <div className="footer__area-widget-info">
-                      <p>
-                        <Link href="mailto:nanxi.ding@artem.earth">
-                          nanxi.ding@artem.earth
-                        </Link>
                       </p>
                     </div>
                   </div>
@@ -125,28 +115,18 @@ const FooterOne = () => {
                 </div>
               </div>
             </div>
-            {/* <div className="col-lg-4 col-md-6 lg-mt-25">
+            <div className="col-lg-4 col-md-6 lg-mt-25">
               <div className="footer__area-widget">
-                <h6>Subscribe</h6>
-                <div className="footer__area-widget-subscribe">
-                  <form action="#">
-                    <input
-                      type="email"
-                      name="email"
-                      placeholder="Email Address"
-                      required="required"
-                    />
-                    <button type="submit">
-                      <i className="fas fa-paper-plane"></i>
-                    </button>
-                    <label>
-                      <input type="checkbox" />I agree with the terms and
-                      conditions
-                    </label>
-                  </form>
+                <h6>Email</h6>
+                <div className="footer__area-widget-info">
+                  <p>
+                    <Link href="mailto:nanxi.ding@artem.earth">
+                      nanxi.ding@artem.earth
+                    </Link>
+                  </p>
                 </div>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
         <div className="copyright__area lg-t-center">
