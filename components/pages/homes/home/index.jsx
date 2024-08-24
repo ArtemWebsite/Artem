@@ -25,21 +25,9 @@ import ServicesNew from "./services-2";
 const HomeOne = () => {
   return (
     <div>
-      <div className={styles.container}>
-        <Head>
-          <title>Under Construction</title>
-          <meta name="description" content="This page is under construction" />
-          <link rel="icon" href="/favicon.ico" />
-        </Head>
-        <main className={styles.main}>
-          <h1 className={styles.title}>This Page is Under Construction</h1>
-          <p className={styles.description}>
-            We're working hard to bring you something awesome. Stay tuned!
-          </p>
-        </main>
-      </div>
+     
 
-      {/* <SEO pageTitle="Artem" />
+       <SEO pageTitle="Artem" />
       <HeaderOne />
       <BannerOne />
       <Features />
@@ -61,7 +49,7 @@ const HomeOne = () => {
 
       <FooterOne />
 
-      <ScrollToTop /> */}
+      <ScrollToTop />
     </div>
   );
 };
