@@ -9,7 +9,7 @@
 .cbam-importer-main {
 }
 .cbam_img_with_text {
-  background: var(--primary-color-3);
+  background: var(--bg-white);
   background-position: center;
 }
 .header__area-menubar-left.one::after {
@@ -97,4 +97,7 @@
   .cbam_advantage-sec .sieze-line h2 {
     font-size: 2.3rem;
   }
+}
+.color-green-cbam {
+color: #74D5C2;
 }

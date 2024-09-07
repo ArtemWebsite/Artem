@@ -5,6 +5,7 @@ import shape from "../../../public/assets/img/shape/shape-5.png";
 import img1 from "../../../public/assets/img/cbam-declarants/text-with-image.jpg";
 import functionalitiesData from "@/components/data/functionalities-data";
 import cbamBg from "../../../public/assets/img/shape/shape-15.png";
+import cbamArrow from "../../../public/assets/img/icon/arrow-right.png";
 import cbamMainBg from "../../../public/assets/img/shape/shape-4.png";
 import cbamMainBgnew from "../../../public/assets/img/shape/shape-1.png";
 
@@ -17,22 +18,20 @@ const CbamImporterMain = () => {
       >
         <div className="container">
           <div className="row al-center">
-            <div className="col-lg-9 mb-80 ">
+            <div className="row">
+              <div className="col-lg-6">
               <div className="cbam_img_with_text-left">
                 <div className="cbam_img_with_text-left-title">
                   <h2 className="mb-5">
-                    <span className="logo-color">Pioneer</span> cross-border
-                    CBAM Compliance for the Declarant
+                    Pioneer cross-border
+                    <span className="color-green-artm"> CBAM </span> Compliance for the Declarant
                   </h2>
                 </div>
               </div>
-            </div>
-            <div className="row">
-              <div className="col-lg-6">
                 <div className="t-left mt-100">
-                  <p class="display-6">Fulfill your CBAM Obligations</p>
-                  <p className="text-dark">AND</p>
-                  <p class="display-6">Gain CBAM clients worldwide</p>
+                  <div className="dflex bg-light-green-artm mt-5 mb-5 p-4 display-7"><img className="icon-small" src={cbamArrow.src} />Fulfill your CBAM <span className="color-green-artm">Obligations</span></div>
+                  <div className="dflex bg-light-green-artm mt-5 mb-5 p-4 display-7"><img className="icon-small" src={cbamArrow.src} />Offer Your <span className="color-green-artm">Clients</span> A New CBAM service</div>
+                  <div className="dflex bg-light-green-artm mt-5 mb-5 p-4 display-7"><img className="icon-small" src={cbamArrow.src} />Verify Your <span className="color-green-artm">Emissions</span> Data</div>
                 </div>
               </div>
               <div className="col-lg-6 ">
@@ -50,18 +49,14 @@ const CbamImporterMain = () => {
       <div className="cbam_banner_area pt-60 pb-120">
         <div className="container  bg-white rounded">
           <div className="row al-center">
-            <div className="col-lg-5">
-              <div className="cbam__banner_text"></div>
-            </div>
-            <div className="col-lg-7 p-0">
+            <div className="col-xl-12">
               <div className="cbam__banner_text">
-                <h3>
-                  How can the DECLARANT shield itself from the legal liabilities
-                  of wrong reporting?
-                </h3>
-                <a className="mt-5 btn-one" href="/">
-                  REQUEST DEMO
-                </a>
+              <h2 className="mb-5">
+                    What is
+                    <span className="color-green-artm"> CBAM </span> ?
+                  </h2>
+                <p>From 2023 until 2025, CBAM is in the “Transitional Period”. This means that Reporting Declarants importing into the EU are required to report on the emissions data from the producers of CBAM Goods. By 2026, CBAM will require Reporting Declarants to purchase emissions allowances when importing CBAM Goods into the EU and to provide verified emissions reports.
+                  </p>
               </div>
             </div>
           </div>
