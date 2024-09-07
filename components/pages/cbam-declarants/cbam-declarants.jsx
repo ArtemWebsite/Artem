@@ -28,19 +28,18 @@ const CbamImporterMain = () => {
               </div>
             </div>
             <div className="row">
-              <div className="col-lg-5 ">
-                <div
-                  className="cbam_img_with_text-right t-right dark_image position-absolute"
-                  style={{ bottom: "-150px" }}
-                >
-                  <img src={img1.src} alt="img-with-text" />
-                </div>
-              </div>
-              <div className="col-lg-7">
+              <div className="col-lg-6">
                 <div className="t-left mt-100">
                   <p class="display-6">Fulfill your CBAM Obligations</p>
                   <p className="text-dark">AND</p>
                   <p class="display-6">Gain CBAM clients worldwide</p>
+                </div>
+              </div>
+              <div className="col-lg-6 ">
+                <div
+                  className="cbam_img_with_text-right t-right dark_image"
+                >
+                  <img src={img1.src} alt="img-with-text" />
                 </div>
               </div>
             </div>
