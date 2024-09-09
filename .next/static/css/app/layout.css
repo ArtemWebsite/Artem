@@ -17,7 +17,7 @@
   \***********************************************************************************************************************************************************************************************************************************************************************************/
 @font-face {
   font-family: "flaticon_slaze";
-  src: url(/_next/static/media/flaticon_slaze.c5533ffb.woff2) format("woff2"), url(/_next/static/media/flaticon_slaze.9b298d83.woff) format("woff"), url(/_next/static/media/flaticon_slaze.40448c55.eot#iefix) format("embedded-opentype"), url(/_next/static/media/flaticon_slaze.ecbfef12.ttf) format("truetype"), url(/_next/static/media/flaticon_slaze.251168f6.svg#flaticon_slaze) format("svg");
+  src: url(/_next/static/media/flaticon_slaze.c5533ffb.woff2) format("woff2"), url(/_next/static/media/flaticon_slaze.9b298d83.woff) format("woff"), url(/_next/static/media/flaticon_slaze.40448c55.eot#iefix) format("embedded-opentype"), url(/_next/static/media/flaticon_slaze.ecbfef12.ttf) format("truetype"), url(/_next/static/media/flaticon_slaze.047c4194.svg#flaticon_slaze) format("svg");
 }
 i[class^=flaticon-]:before, i[class*=" flaticon-"]:before {
   font-family: flaticon_slaze !important;
@@ -11683,20 +11683,20 @@ p.textdata {
   padding-right: 0;
   background-color: var(--primary-color-3);
 }
-
 .color-green-artm {
-  color: #74D5C2;
+  color: #74d5c2;
 }
 .bg-light-green-artm {
-  background-color: #EFFAF8;
-  border: 2px solid #D8F3EE;
+  background-color: #effaf8;
+  border: 2px solid #d8f3ee;
   border-radius: 20px;
 }
 .dflex {
   display: flex;
-    align-items: center;
-    gap: 10px;
+  align-items: center;
+  gap: 10px;
 }
 .icon-small {
   width: 12px;
 }
+
