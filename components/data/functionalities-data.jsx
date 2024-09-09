@@ -1,12 +1,12 @@
 const functionalitiesData = [
     {
         id: '#1',
-        title: 'Localised ARTEM Access points to allow global suppliers upload data despite different internet ecosystem (e.g. China)',
+        title: 'Easy integration into existing customs reporting structure ',
         link: '/', 
     },
     {
         id: '#2',
-        title: 'Local Team to support suppliers with data input',
+        title: 'User-friendly CBAM data upload structure from all over the world',
         link: '/',    
     },
     {

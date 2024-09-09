@@ -218,43 +218,57 @@ id="myCarousel"
           </div>
         </div>
       </div>
-      
-      <div
-        className="cbam_three_tab section-padding"
-        style={{ backgroundImage: `url(${cbamMainBgnew.src})` }}
-      >
-        <div className="container">
-          <div className="row">
+	  
+	  
+	  <div className="cbam_banner_area pt-60 pb-120">
+        <div className="container  bg-white rounded">
+          <div className="row al-center">
+            <div className="col-xl-12">
+              <div className="cbam__banner_text mb-5">
+                <h2 className="mb-5 text-center">
+                How can <span className="color-green-artm">  artem </span> help?
+                </h2>
+                <p className="text-center">
+                  Failure to comply with the Carbon Border Adjustment Mechanism (CBAM) can result in significant penalties.
+                </p>
+              </div>
+              <div className="container">
+                <div className="row">
             <div className="col-lg-4 col-md-6 rounded">
               <div className="col-xl-12 bg-light p-4 rounded-5 border border-2  border-dark">
                 <div className="cbam__banner_text">
-                  <h5 className="text-center">
-                    Traceability of Emission Data from Installation
-                  </h5>
+                  <p className="text-center">
+                  A CBAM compliant and easy to use CBAM Reporting Tool that will access the ARTEM database of real data from the installations directly.
+                  </p>
                 </div>
               </div>
             </div>
             <div className="col-lg-4 col-md-6 rounded">
               <div className="col-xl-12 bg-light p-4 rounded-5 border border-2  border-dark">
                 <div className="cbam__banner_text">
-                  <h5 className="text-center">
-                    Transparent Process of Data collection
-                  </h5>
+                <p className="text-center">
+                Assistance with communicating with suppliers and intermediaries to get the data you need fast.
+                  </p>
                 </div>
               </div>
             </div>
             <div className="col-lg-4 col-md-6 rounded">
               <div className="col-xl-12 bg-light p-4 rounded-5 border border-2  border-dark">
                 <div className="cbam__banner_text">
-                  <h5 className="text-center">
-                    Clear Allocation of Reporting Responsibilites
-                  </h5>
+                <p className="text-center">
+                Assistance with minimising your liabilities under CBAM by identifying suppliers with lower emissions.
+                  </p>
                 </div>
+              </div>
+            </div>
+          </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+      
+      
 
       <div
         className="cbam_service service__one section-padding"
@@ -268,11 +282,13 @@ id="myCarousel"
             <div className="col-xl-12">
               <div className="service__one-title t-center">
                 <span className="subtitle-one">&nbsp;</span>
-                <h2 className="pb-5">Key Functionalities</h2>
-                <p class="display-6">
-                  ARTEM provides a clear and easy system to the CBAM Declarant
-                  to manage their importers and improve their service at low
-                  cost.
+                <h2 className="mb-5 text-center">
+                <span className="color-green-artm">  Key </span> Functionalities
+                </h2>
+                <p className="text-center">
+                ARTEM provides a clear and easy system to the CBAM Declarant
+                  to manage their importers and improve their service at <span className="color-green-artm">low
+                  cost. </span>
                 </p>
               </div>
             </div>
@@ -281,14 +297,14 @@ id="myCarousel"
             {functionalitiesData?.slice(0, 3)?.map((data, id) => (
               <div className="col-lg-4 col-md-6" key={id}>
                 <div
-                  className="service__one-item rounded-5"
+                  className="bg-light-blue-artm service__one-item rounded-5"
                   style={{ backgroundImage: `url(${shape.src})` }}
                 >
                   <div className="service-cols service__one-item-content">
                     <h5>{data.id}</h5>
                     <p>{data.title}</p>
                     <Link href={data.link} className="mt-3 btn-one text-white">
-                      Learn More
+                      Read More
                     </Link>
                   </div>
                 </div>
