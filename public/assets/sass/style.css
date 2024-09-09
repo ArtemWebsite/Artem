@@ -10596,7 +10596,7 @@ p.textdata {
 .cbam-importer-main {
 }
 .cbam_img_with_text {
-  background: var(--primary-color-3);
+  background: var(--bg-white);
   background-position: center;
 }
 .header__area-menubar-left.one::after {
@@ -10697,4 +10697,20 @@ p.textdata {
 .main-container .container.top-container {
   padding-right: 0;
   background-color: var(--primary-color-3);
+}
+.color-green-artm {
+  color: #74d5c2;
+}
+.bg-light-green-artm {
+  background-color: #effaf8;
+  border: 2px solid #d8f3ee;
+  border-radius: 20px;
+}
+.dflex {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.icon-small {
+  width: 12px;
 }

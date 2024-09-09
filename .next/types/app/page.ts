@@ -1,4 +1,4 @@
-// File: C:\Users\GTL Neha\Desktop\new-artem\Artem\app\page.jsx
+// File: F:\artem new\Artem\app\page.jsx
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

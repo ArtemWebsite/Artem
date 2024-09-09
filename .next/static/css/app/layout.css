@@ -11683,20 +11683,20 @@ p.textdata {
   padding-right: 0;
   background-color: var(--primary-color-3);
 }
-
 .color-green-artm {
-  color: #74D5C2;
+  color: #74d5c2;
 }
 .bg-light-green-artm {
-  background-color: #EFFAF8;
-  border: 2px solid #D8F3EE;
+  background-color: #effaf8;
+  border: 2px solid #d8f3ee;
   border-radius: 20px;
 }
 .dflex {
   display: flex;
-    align-items: center;
-    gap: 10px;
+  align-items: center;
+  gap: 10px;
 }
 .icon-small {
   width: 12px;
 }
+

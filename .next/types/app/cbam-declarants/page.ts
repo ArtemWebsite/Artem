@@ -1,4 +1,4 @@
-// File: C:\Users\GTL Neha\Desktop\new-artem\Artem\app\cbam-declarants\page.jsx
+// File: F:\artem new\Artem\app\cbam-declarants\page.jsx
 import * as entry from '../../../../app/cbam-declarants/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
