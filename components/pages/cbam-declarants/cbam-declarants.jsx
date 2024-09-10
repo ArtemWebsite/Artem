@@ -4,6 +4,7 @@ import serviceBg from "../../../public/assets/img/shape/shape-9.png";
 import shape from "../../../public/assets/img/shape/shape-5.png";
 import img1 from "../../../public/assets/img/cbam-declarants/text-with-image.jpg";
 import builder from "../../../public/assets/img/cbam-declarants/builder.png";
+import builder2 from "../../../public/assets/img/cbam-declarants/builder2.png";
 import functionalitiesData from "@/components/data/functionalities-data";
 import cbamBg from "../../../public/assets/img/shape/shape-15.png";
 import cbamArrow from "../../../public/assets/img/icon/arrow-right.png";
@@ -326,14 +327,14 @@ const CbamImporterMain = () => {
       </div>
 
       <div
-        className="cbam_advantage-sec section-padding "
+        className="cbam_advantage-sec"
         style={{ backgroundImage: `url(${cbamMainBg.src})` }}
       >
-        <div className="custom__container container ">
+        <div className="custom__container container position-relative">
           <div className="row align-items-end">
             <div className="col-12 col-md-8 mb-3 sieze-line">
               <div>
-              <h3 className="text-white">
+              <h3 className="text-white pb-60 pt-60">
               Use 
                   <span className="color-green-artm"> ARTEM </span> to shield yourself from legal responsibility of wrong reporting
                 </h3>
@@ -341,7 +342,7 @@ const CbamImporterMain = () => {
             </div>
             <div className="col-12 col-md-4 mb-3 licences">
               <div className="">
-			  <img src={builder.src} alt="builder" />
+			  <img className="position-absolute" src={builder.src} alt="builder" style={{ bottom: "0", width:"30%" }} />
               </div>
             </div>
           </div>
@@ -349,7 +350,7 @@ const CbamImporterMain = () => {
       </div>
 	  
 	  
-	  <div className="cbam_banner_area">
+	  <div className="cbam_banner_area section-padding">
               <div className="container">
                 <div className="row">
                   <div className="col-xl-12 mb-5 p-4 bg-light">
@@ -376,6 +377,30 @@ const CbamImporterMain = () => {
                 </div>
               </div>
       </div>
+
+      <div
+        className="cbam_advantage-sec"
+        style={{ backgroundImage: `url(${cbamMainBg.src})` }}
+      >
+        <div className="custom__container container position-relative">
+          <div className="row align-items-end">
+            <div className="col-12 col-md-4 mb-3 licences">
+              <div className="">
+			  <img className="position-absolute" src={builder2.src} alt="builder" style={{ bottom: "0", width:"30%" }} />
+              </div>
+            </div>
+            <div className="col-12 col-md-8 mb-3 sieze-line">
+              <div>
+              <h3 className="text-white pb-60 pt-60">
+              Get in on the business of offering high-end 
+                  <span className="color-green-artm"> CBAM </span> Declaration service to Importers 
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   );
 };
