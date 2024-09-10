@@ -347,6 +347,35 @@ const CbamImporterMain = () => {
           </div>
         </div>
       </div>
+	  
+	  
+	  <div className="cbam_banner_area">
+              <div className="container">
+                <div className="row">
+                  <div className="col-xl-12 mb-5 p-4 bg-light">
+                      <div className="cbam__banner_text">
+                        <h3 className="text-center">
+                          Traceability of Emission Data from Installation
+                        </h3>
+                      </div>
+                  </div>
+                  <div className="col-xl-12 mb-5 p-4 bg-light">
+                      <div className="cbam__banner_text">
+                        <h3 className="text-center">
+                          Transparent Process of Data collection.
+                        </h3>
+                      </div>
+                  </div>
+                  <div className="col-xl-12 mb-5 p-4 bg-light">
+                      <div className="cbam__banner_text">
+                        <h3 className="text-center">
+                          Clear Allocation of Reporting Responsibilites
+                        </h3>
+                      </div>
+                  </div>
+                </div>
+              </div>
+      </div>
     </div>
   );
 };
