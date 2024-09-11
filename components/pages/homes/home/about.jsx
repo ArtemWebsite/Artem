@@ -65,7 +65,9 @@ const About = () => {
 
                 <div className="about__scope-of-application">
                   <div className="row">
-                    <span class="application-text">Scope of Application</span>
+                    <span className="application-text">
+                      Scope of Application
+                    </span>
                     <div className="col-xl-4 col-lg-6 col-sm-6">
                       <img
                         className="rounded-circle"

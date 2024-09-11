@@ -1,5 +1,4 @@
 "use client";
-
 import SEO from "@/components/data/seo";
 import HeaderOne from "@/components/layout/headers/header-one";
 import CbamDeclarantsMain from "./cbam-declarants";
