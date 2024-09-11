@@ -118,32 +118,42 @@ const CbamImporterMain = () => {
             <div className="col-xl-12">
               <div className="service__one-title t-center">
                 <span className="subtitle-one">&nbsp;</span>
-                <h2 className="pb-5">Key Functionalities</h2>
+                <h2 className="mb-5 text-center">
+                  <span className="color-green-artm"> Key </span>{" "}
+                  Functionalities
+                </h2>
                 <p class="display-6">
-                  ARTEM provides a clear and easy system to the CBAM Importer to
+                  ARTEM provides a <span className="color-green-artm">clear and easy</span> system to the CBAM Importer to
                   manage the CBAM Data collection along the whole supply chain.
                 </p>
               </div>
             </div>
           </div>
           <div className="row">
-            {functionalitiesData?.slice(0, 6)?.map((data, id) => (
-              <div className="col-lg-4 col-md-6" key={id}>
-                <div
-                  className="service__one-item rounded-5"
-                  style={{ backgroundImage: `url(${shape.src})` }}
-                >
-                  <div className="service-cols service__one-item-content">
-                    <h5>{data.id}</h5>
-                    <h6>{data.title}</h6>
-                    <Link href={data.link} className="mt-3 btn-one text-white">
-                      Learn More
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
+  {functionalitiesData?.slice(3, 9)?.map((data, id) => (
+    <div className="col-lg-4 col-md-6" key={id}>
+      <div
+        className={`${
+          id % 2 === 1 ? "bg-light-green-artm" : "bg-light-blue-artm"
+        } service__one-item rounded-5`}
+        style={{ backgroundImage: `url(${shape.src})` }}
+      >
+        <div className="service-cols service__one-item-content">
+          <h5>{data.no}</h5>
+          <h6>{data.title}</h6>
+          <Link
+            href={data.link}
+            className={`mt-3 btn-one text-white ${
+              id % 2 === 1 ? "bg-theme-green" : "bg-theme-blue"
+            }`}
+          >
+            Read More
+          </Link>
+        </div>
+      </div>
+    </div>
+  ))}
+</div>
         </div>
       </div>
       

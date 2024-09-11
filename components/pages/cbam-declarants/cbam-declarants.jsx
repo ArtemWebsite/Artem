@@ -5,6 +5,10 @@ import shape from "../../../public/assets/img/shape/shape-5.png";
 import img1 from "../../../public/assets/img/cbam-declarants/text-with-image.jpg";
 import builder from "../../../public/assets/img/cbam-declarants/builder.png";
 import builder2 from "../../../public/assets/img/cbam-declarants/builder2.png";
+import vector1 from "../../../public/assets/img/cbam/vector1.png";
+import vector2 from "../../../public/assets/img/cbam/vector2.png";
+import icon from "../../../public/assets/img/cbam/Icon.png";
+import icon2 from "../../../public/assets/img/cbam/Icon2.png";
 import functionalitiesData from "@/components/data/functionalities-data";
 import cbamBg from "../../../public/assets/img/shape/shape-15.png";
 import cbamArrow from "../../../public/assets/img/icon/arrow-right.png";
@@ -99,6 +103,7 @@ const CbamDeclarantsMain = () => {
             <div className="col-lg-4 col-md-6 rounded">
               <div className="col-xl-12 bg-light-green-artm p-4">
                 <div className="cbam__banner_text">
+                <img className="icon-small2" src={vector2.src} />
                   <p className="text-center">
                     Reporting Declarants importing into the EU will need to
                     account for the carbon emissions associated with any CBAM
@@ -108,8 +113,9 @@ const CbamDeclarantsMain = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-6 rounded">
-              <div className="col-xl-12 bg-light-green-artm p-4">
+              <div className="col-xl-12 bg-light-blue-artm p-4">
                 <div className="cbam__banner_text">
+                <img className="icon-small2" src={vector1.src} />
                   <p className="text-center">
                     Reporting Declarants will need to have the data in their
                     reports verified. Non-compliant reporting, or a failure to
@@ -121,6 +127,7 @@ const CbamDeclarantsMain = () => {
             <div className="col-lg-4 col-md-6 rounded">
               <div className="col-xl-12 bg-light-green-artm p-4">
                 <div className="cbam__banner_text">
+                <img className="icon-small2" src={vector2.src} />
                   <p className="text-center">
                     Reporting Declarants may be able to lower their costs by
                     switching to a producer that emits fewer emissions.
@@ -211,17 +218,19 @@ const CbamDeclarantsMain = () => {
               </div>
               <div className="container">
                 <div className="row">
-                  <div className="col-xl-12 mb-5 p-4 bg-light-green-artm">
-                    <div className="cbam__banner_text">
+                  <div className="col-xl-12 mb-5 p-4 bg-light-blue-artm">
+                    <div className="cbam__banner_text dflex align-items-baseline">
+                    <img className="icon-small2" src={icon2.src} />
                       <p className="text-center">
-                        From 1 August 2024, Reporting Declarants must report
+                        From <span className="color-theme-blue">1 August 2024</span>, Reporting Declarants must report
                         primary emissions data from the installations that
                         produce CBAM Goods.
                       </p>
                     </div>
                   </div>
                   <div className="col-xl-12 mb-5 p-4 bg-light-green-artm">
-                    <div className="cbam__banner_text">
+                    <div className="cbam__banner_text dflex align-items-baseline">
+                    <img className="icon-small2" src={icon.src} />
                       <p className="text-center">
                         From{" "}
                         <span className="color-green-artm">1 January 2026</span>
@@ -232,8 +241,9 @@ const CbamDeclarantsMain = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="col-xl-12 mb-5 p-4 bg-light-green-artm">
-                    <div className="cbam__banner_text">
+                  <div className="col-xl-12 mb-5 p-4 bg-light-blue-artm">
+                    <div className="cbam__banner_text dflex align-items-baseline">
+                    <img className="icon-small2" src={icon2.src} />
                       <p className="text-center">
                         Penalties are subject to indexation and can be higher if
                         there are repeated failures or prolonged non-compliance.
@@ -280,6 +290,7 @@ const CbamDeclarantsMain = () => {
             <div className="col-lg-4 col-md-6 rounded">
               <div className="col-xl-12 bg-theme-blue text-white  p-4 rounded-5 border border-2  border-dark">
                 <div className="cbam__banner_text">
+                  <img className="icon-small2" src={vector2.src} />
                   <p className="text-center">
                     A CBAM compliant and easy to use CBAM Reporting Tool that
                     will access the ARTEM database of real data from the
@@ -289,8 +300,9 @@ const CbamDeclarantsMain = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-6 rounded">
-              <div className="col-xl-12 bg-theme-green p-4 rounded-5 border border-2  border-dark">
+              <div className="col-xl-12 bg-theme-green p-4 rounded-5">
                 <div className="cbam__banner_text">
+                <img className="icon-small2" src={vector1.src} />
                   <p className="text-center">
                     Assistance with communicating with suppliers and
                     intermediaries to get the data you need fast.
@@ -299,8 +311,9 @@ const CbamDeclarantsMain = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-6 rounded">
-              <div className="col-xl-12 bg-theme-blue text-white  p-4 rounded-5 border border-2  border-dark">
+              <div className="col-xl-12 bg-theme-blue text-white  p-4 rounded-5">
                 <div className="cbam__banner_text">
+                <img className="icon-small2" src={vector2.src} />
                   <p className="text-center">
                     Assistance with minimising your liabilities under CBAM by
                     identifying suppliers with lower emissions.
@@ -337,26 +350,30 @@ const CbamDeclarantsMain = () => {
             </div>
           </div>
           <div className="row">
-            {functionalitiesData?.slice(0, 3)?.map((data, id) => (
-              <div className="col-lg-4 col-md-6" key={id}>
-                <div
-                  className="bg-light-blue-artm service__one-item rounded-5"
-                  style={{ backgroundImage: `url(${shape.src})` }}
-                >
-                  <div className="service-cols service__one-item-content">
-                    <h5>{data.id}</h5>
-                    <p>{data.title}</p>
-                    <Link
-                      href={data.link}
-                      className="mt-3 btn-one bg-theme-blue text-white"
-                    >
-                      Read More
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
+  {functionalitiesData?.slice(0, 3)?.map((data, id) => (
+    <div className="col-lg-4 col-md-6" key={id}>
+      <div
+        className={`${
+          id === 1 ? "bg-light-green-artm" : "bg-light-blue-artm"
+        } service__one-item rounded-5`}
+        style={{ backgroundImage: `url(${shape.src})` }}
+      >
+        <div className="service-cols service__one-item-content">
+          <h5>{data.id}</h5>
+          <p>{data.title}</p>
+          <Link
+            href={data.link}
+            className={`mt-3 btn-one text-white ${
+              id === 1 ? "bg-theme-green" : "bg-theme-blue"
+            }`}
+          >
+            Read More
+          </Link>
+        </div>
+      </div>
+    </div>
+  ))}
+</div>
         </div>
       </div>
 
