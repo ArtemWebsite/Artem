@@ -17,6 +17,12 @@
       "static/chunks/main-app.js",
       "static/css/app/cbam-importer/page.css",
       "static/chunks/app/cbam-importer/page.js"
+    ],
+    "/cbam-installation/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/cbam-installation/page.css",
+      "static/chunks/app/cbam-installation/page.js"
     ]
   }
 }
