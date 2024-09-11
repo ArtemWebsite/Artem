@@ -1,6 +1,5 @@
 "use client";
 
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import SEO from "@/components/data/seo";
 import HeaderOne from "@/components/layout/headers/header-one";
 import CbamDeclarantsMain from "./cbam-declarants";
