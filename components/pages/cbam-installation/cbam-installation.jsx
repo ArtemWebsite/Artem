@@ -123,9 +123,7 @@ const CbamInstallationMain = () => {
                 <div className="cbam__banner_text">
                 <img className="icon-small2" src={vector2.src} />
                   <p className="text-center">
-                    Reporting Declarants importing into the EU will need to
-                    account for the carbon emissions associated with any CBAM
-                    Goods imported.
+                  Producers exporting to the EU will <span className="color-green-artm">need to account</span> for the carbon emissions associated with their products. 
                   </p>
                 </div>
               </div>
@@ -135,9 +133,7 @@ const CbamInstallationMain = () => {
                 <div className="cbam__banner_text">
                 <img className="icon-small2" src={vector1.src} />
                   <p className="text-center">
-                    Reporting Declarants will need to have the data in their
-                    reports verified. Non-compliant reporting, or a failure to
-                    verify data may lead to penalties.
+                  Producers that fail to adopt technologies that emit fewer greenhouse gases will   to their competitors.  
                   </p>
                 </div>
               </div>
@@ -147,8 +143,7 @@ const CbamInstallationMain = () => {
                 <div className="cbam__banner_text">
                 <img className="icon-small2" src={vector2.src} />
                   <p className="text-center">
-                    Reporting Declarants may be able to lower their costs by
-                    switching to a producer that emits fewer emissions.
+                  Reporting Declarants importing into the European Union, and their suppliers, will expect producers to <span className="color-green-artm">comply with reporting and verification obligations</span> imposed by CBAM.
                   </p>
                 </div>
               </div>
@@ -188,7 +183,7 @@ const CbamInstallationMain = () => {
       >
         <div className="container">
           <div className="row">
-            <div className="col-lg-4 col-md-6 rounded">
+            <div className="col-lg-6 col-md-6 rounded">
               <div className="col-xl-12 bg-theme-blue text-white  p-4 rounded-5 border border-2  border-dark">
                 <div className="cbam__banner_text">
                   <img className="icon-small2" src={vector2.src} />
@@ -196,6 +191,28 @@ const CbamInstallationMain = () => {
                     A CBAM compliant and easy to use CBAM Reporting Tool that
                     will access the ARTEM database of real data from the
                     installations directly.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6 col-md-6 rounded">
+              <div className="col-xl-12 bg-theme-green p-4 rounded-5">
+                <div className="cbam__banner_text">
+                <img className="icon-small2" src={vector1.src} />
+                  <p className="text-center">
+                    Assistance with communicating with suppliers and
+                    intermediaries to get the data you need fast.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 rounded">
+              <div className="col-xl-12 bg-theme-blue text-white  p-4 rounded-5">
+                <div className="cbam__banner_text">
+                <img className="icon-small2" src={vector2.src} />
+                  <p className="text-center">
+                    Assistance with minimising your liabilities under CBAM by
+                    identifying suppliers with lower emissions.
                   </p>
                 </div>
               </div>
