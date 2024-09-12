@@ -183,7 +183,7 @@ const CbamInstallationMain = () => {
       >
         <div className="container">
           <div className="row">
-            <div className="col-lg-6 col-md-6 rounded">
+            <div className="col-lg-6 col-md-6 rounded  mb-3">
               <div className="col-xl-12 bg-theme-blue text-white  p-4 rounded-5 border border-2  border-dark">
                 <div className="cbam__banner_text">
                   <img className="icon-small2" src={vector2.src} />
@@ -193,7 +193,7 @@ const CbamInstallationMain = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 col-md-6 rounded">
+            <div className="col-lg-6 col-md-6 rounded mb-3">
               <div className="col-xl-12 bg-theme-green p-4 rounded-5">
                 <div className="cbam__banner_text">
                 <img className="icon-small2" src={vector1.src} />

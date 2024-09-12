@@ -1,5 +1,4 @@
 {
-  "/not-found": "app/not-found.js",
   "/cbam-declarants/page": "app/cbam-declarants/page.js",
   "/cbam-importer/page": "app/cbam-importer/page.js",
   "/cbam-accredited-verifier/page": "app/cbam-accredited-verifier/page.js",
