@@ -20,10 +20,8 @@ section.climate-changes .outerwrapper {
 
 /* styles/artem-section.css */
 .artem-section {
-    background-color: #a3d8d4;
-   
-    text-align: left;
-  }
+  background-color: var(--primary-color-1);
+}
   
   .artem-title {
     font-size: 2.5rem;

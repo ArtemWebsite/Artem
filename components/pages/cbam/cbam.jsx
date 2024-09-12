@@ -3,34 +3,31 @@ import Image from "next/image";
 import Link from "next/link";
 import "./cbam.css";
 import cbamImage from "../../../public/assets/img/cbam/What-is-CBAM.png";
-import cbamImage2 from "../../../public/assets/img/cbam/CBAM-2.png";
+import cbamImage2 from "../../../public/assets/img/cbam/cbam-2.png";
 import shipImage from "../../../public/assets/img/cbam/data.jpg";
 import cbamaim from "../../../public/assets/img/cbam/CBAM-aim.png";
-
+import builder3 from "../../../public/assets/img/cbam/builder3.png";
+import cbamMainBg from "../../../public/assets/img/shape/shape-4.png";
 import TestimonialMain from "../testimonial/testimonial";
 
 const CBAM = () => {
   return (
-    <div className="main-container container">
+    <div className="main-container">
       <div className="pt-100  container top-container">
         <section className="why-cbam row container-fluid p-0 m-0">
           <div className="row mx-auto">
-            <div className="col-md-12">
-              <h1 className="display-4 pb-50">What is CBAM?</h1>
+            <div className="col-md-12 text-center">
+			  <h2 className="mb-5">
+                      What is
+                      <span className="color-green-artm"> CBAM </span>
+                    </h2>
               <p className="lead">Carbon Border Adjustment Mechanism</p>
-              <p>Effective since October 2023</p>
+              <p>Effective since <span className="color-green-artm">October 2023</span></p>
               <p>Transitional Period: 2023-2025</p>
             </div>
           </div>
           <div className="row align-items-center justify-content-between mx-auto p-0">
-            <div className="col-md-5 mx-auto">
-              <Link href="https://www.eucommission-url.com" legacyBehavior>
-                <a className="btn btn-one btn-dark">
-                  Go to EU Commission CBAM Landing Page
-                </a>
-              </Link>
-            </div>
-            <div className="col-md-7 container-fluid p-0">
+            <div className="col-md-12 container-fluid p-0">
               <Image
                 src={cbamImage}
                 alt="CBAM Image"
@@ -41,16 +38,16 @@ const CBAM = () => {
         </section>
       </div>
 
-      <section className="climate-changes  bg-dark text-white container p-0">
+      <section className="climate-changes  container p-0">
         <div className="row align-items-center conatiner outerwrapper w-100 p-0 m-0">
-          <div className="col-md-8 pt-100 pb-100 ">
+          <div className="col-md-6 pt-100 pb-100 ">
             <div className="p-4 mx-auto">
-              <h3 className="pb-4 text-white">
-                Climate change is a global problem that needs global solutions.
-              </h3>
-              <h3 className="pb-4 text-white">
+              <h2 className="pb-4">
+                Climate change is a global <span className="color-green-artm">problem</span> that needs global <span className="color-green-artm">solutions.</span>
+              </h2>
+              <h5 className="pb-4">
                 CBAM is the EU’s answer to the problem of “carbon leakage”.
-              </h3>
+              </h5>
               <p className="mt-4">
                 “Carbon leakage” occurs when companies based in the EU move
                 carbon-intensive production abroad to countries with less strict
@@ -59,7 +56,7 @@ const CBAM = () => {
               </p>
             </div>
           </div>
-          <div className="col-md-4 container-fluid p-0">
+          <div className="col-md-6 container-fluid p-0">
             <Image
               src={cbamImage2}
               alt="CBAM Image 2"
@@ -69,14 +66,14 @@ const CBAM = () => {
         </div>
       </section>
 
-      <section className="cbam-legal section-padding bg-body-secondary">
+      <section className="cbam-legal section-padding container">
         <div className="row mb-70">
           <div className="col-xl-12">
             <div className="work__process-title t-center pb-30">
-              <h2>CBAM-legal complications and impact</h2>
+              <h2><span className="color-green-artm">CBAM</span>-legal complications and impact</h2>
             </div>
             <div className="choose__us-area-list-work jc-center">
-              <div className="choose__us-area-list-item">
+              <div className="choose__us-area-list-item bg-light-green-artm">
                 <i className="flaticon-deal"></i>
                 <div className="choose__us-area-list-item-bottom">
                   <h6>CBAM Obligations</h6>
@@ -95,7 +92,7 @@ const CBAM = () => {
                   </div>
                 </div>
               </div>
-              <div className="choose__us-area-list-item">
+              <div className="choose__us-area-list-item bg-light-blue-artm">
                 <i className="flaticon-talk"></i>
                 <div className="choose__us-area-list-item-bottom">
                   <h6>Scope of applications</h6>
@@ -123,7 +120,7 @@ const CBAM = () => {
                   </div>
                 </div>
               </div>
-              <div className="choose__us-area-list-item">
+              <div className="choose__us-area-list-item bg-light-green-artm">
                 <i className="flaticon-global-shipping"></i>
                 <div className="choose__us-area-list-item-bottom">
                   <h6>CBAM Impact</h6>
@@ -150,148 +147,75 @@ const CBAM = () => {
             </div>
           </div>
         </div>
-
-        {/* <div className="section-padding">
-          <div className="container">
-            <div className="row al-center p-3 bg-white rounded mb-3">
-              <div className="col-xl-12">
-                <div className="cbam__banner_text">
-                  <h3 className="text-center">
-                    CBAM-legal complications and impact
-                  </h3>
-                </div>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-md-4">
-                <h5 className="pb-4 ">CBAM Obligations</h5>
-                <ul className="list-group">
-                  <li className="list-group-item">
-                    Quarterly Emission Reporting
-                  </li>
-                  <li className="list-group-item">
-                    Purchase of CBAM certificates (carbon tax)
-                  </li>
-                </ul>
-              </div>
-              <div className="col-md-4">
-                <h5 className="pb-4 ">Scope of applications</h5>
-                <ul className="list-group">
-                  <li className="list-group-item">Aluminum</li>
-                  <li className="list-group-item">Electricity</li>
-                  <li className="list-group-item">Cement</li>
-                  <li className="list-group-item">Iron & Steel</li>
-                  <li className="list-group-item">Hydrogen</li>
-                  <li className="list-group-item">Fertilizer</li>
-                </ul>
-              </div>
-              <div className="col-md-4">
-                <h5 className="pb-4 ">CBAM Impact</h5>
-                <ul className="list-group">
-                  <li className="list-group-item">Increase of costs</li>
-
-                  <li className="list-group-item">
-                    Increase of Cost of Imported goods
-                  </li>
-                  <li className="list-group-item">
-                    Increase of Cost of Compliance
-                  </li>
-                  <li className="list-group-item">
-                    Increase of Cost of Offshoring
-                  </li>
-
-                  <li className="list-group-item">Increase of Capex</li>
-                  <li className="list-group-item">
-                    Increase of Cost of Technology
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div> */}
       </section>
-
-      <section
-        className="testimonials section-padding"
-        style={{ backgroundColor: " #8fd3c0" }}
+	  
+	   <div
+        className="cbam_advantage-sec"
+        style={{ backgroundImage: `url(${cbamMainBg.src})` }}
       >
-        <div className="container">
-          <div className="row">
-            <div className="row al-center p-3  rounded mb-3">
-              <div className="col-xl-8">
-                <div className="cbam__banner_text">
-                  <h2 className="text-left text-light">
-                    How much goods are affected by{" "}
-                    <span className="text-dark">CBAM</span>?
-                  </h2>
-                </div>
+        <div className="custom__container position-relative">
+          <div className="row align-items-end">
+            <div className="col-12 col-md-4 mb-3 licences">
+              <div className="">
+                <img
+                  className="position-absolute"
+                  src={builder3.src}
+                  alt="builder"
+                  style={{ bottom: "0", width: "30%" }}
+                />
               </div>
             </div>
-            <div className="row al-center p-3  justify-content-end rounded mb-3">
-              <div className="col-xl-8">
-                <div className="cbam__banner_text">
-                  <p className="display-6 text-left text-light">
-                    “US$ 45 billion of CBAM-covered goods were exported to
-                    Europe from Asia-Pacific in 2022, representing 4 percent of
-                    total exports from the region”
-                  </p>
-                  <p
-                    className="text-dark text float-right justify-content-end "
-                    style={{ textAlign: "right" }}
-                  >
-                    <span className="text-dark text-right">
-                      - Goldman Sachs
-                    </span>
-                  </p>
-                </div>
+            <div className="col-12 col-md-8 mb-3 sieze-line">
+              <div>
+                <h3 className="text-white pb-60 pt-60">
+                How much <span className="color-green-artm">goods</span> are affected by CBAM?
+                </h3>
+                <p>“US$ 45 billion of CBAM-covered goods were exported to Europe from Asia-Pacific in 2022, representing 4 percent of total exports from the region”</p>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+
+      
       <section
-        className="cbam-exported section-padding"
-        style={{ backgroundColor: "#3fa198" }}
-      >
+        className="cbam-exported section-padding">
         <div className="cbam-section">
           <div className="container">
             <div className="row align-items-center">
               <div className="col-12 col-lg-12">
-                <h2 className="text-white">
+                <h2 className="text-center">
                   {" "}
-                  <span className="text-dark">CBAM</span> Good Exported to EU?
+                  <span className="color-green-artm">CBAM</span> Good Exported to EU?
                 </h2>
               </div>
             </div>
             <div className="row mt-4 align-items-center ">
               <div className="row col-lg-6">
                 <div className="emptytext">&nbsp;</div>
-                <div className="row col-lg-6 col-sm-offset-4 overlay-text overlay-data-overImage">
-                  <div className="col-4">
+                <div className="row col-lg-12 justify-content-center">
+                  <div className="col-6">
                     <div
                       className="card text-center"
-                      style={{ backgroundColor: "#f5a623" }}
                     >
-                      <h3 className="text-dark">CHINA</h3>
-                      <p className="text-dark">US$ 25,000,000,000</p>
+                      <h3>CHINA</h3>
+                      <p>US$ 25,000,000,000</p>
                     </div>
                   </div>
-                  <div className="col-4">
+                  <div className="col-6">
                     <div
                       className="card text-center"
-                      style={{ backgroundColor: "#004080" }}
                     >
-                      <h3 className="text-white">INDIA</h3>
-                      <p className="text-white">US$ 8,700,000,000</p>
+                      <h3>INDIA</h3>
+                      <p>US$ 8,700,000,000</p>
                     </div>
                   </div>
-                  <div className="col-4">
+                  <div className="col-6 mt-3">
                     <div
                       className="card text-center"
-                      style={{ backgroundColor: "#ffffff" }}
                     >
-                      <h3 className="text-dark">USA</h3>
-                      <p className="text-dark">US$ 4,000,000,000</p>
+                      <h3>USA</h3>
+                      <p>US$ 4,000,000,000</p>
                     </div>
                   </div>
                 </div>
@@ -303,12 +227,15 @@ const CBAM = () => {
           </div>
         </div>
       </section>
-      <section className="section-padding artem-necessary artem-section ">
+	  
+	  <section className="section-padding artem-necessary artem-section"
+      style={{ backgroundImage: `url(${cbamMainBg.src})` }}
+      >
         <div className="p-5">
           <div className="container">
             <h2 className="text-white pb-5">
-              Why is ARTEM necessary for everyone affected by{" "}
-              <span className="text-dark">CBAM</span>?
+              Why is <span className="color-green-artm">ARTEM</span> necessary for everyone affected by{" "}
+              CBAM?
             </h2>
             <p className="artem-description pb-3">
               Starting from October 2024, the importers must submit their CBAM
@@ -336,16 +263,68 @@ const CBAM = () => {
           </div>
         </div>
       </section>
-      <section className="section-padding cbam-aim">
-        <div className="container ">
-          <Image
-            src={cbamaim}
-            alt="CBAM Aim"
-            layout="responsive"
-            className=" border border-dark"
-          />
+	  
+	  <section className="cbam-legal section-padding container">
+        <div className="row mb-70">
+          <div className="col-xl-12">
+            <div className="work__process-title t-center pb-30">
+              <h2>
+			  CBAM aims to put a price on <span className="color-green-artm">carbon intensive</span> goods entering the European Union, Hence preventing <span className="color-green-artm">carbon Leakage</span>
+			  </h2>
+            </div>
+            <div className="choose__us-area-list-work jc-center">
+              <div className="choose__us-area-list-item bg-light-green-artm">
+                <div className="choose__us-area-list-item-bottom">
+                  <h5>Purpose</h5>
+                  <div>
+                    <p>Avoiding “carbon leakage” and reducing global GHG emissions.</p>
+					 <h6>Key Objective</h6>
+					 <p>Enviornmental Purpose</p>
+					 <p>Economic Fairness</p>
+					 <p>Global Climate Regulations</p>
+                  </div>
+                </div>
+              </div>
+              <div className="choose__us-area-list-item bg-light-blue-artm">
+                <div className="choose__us-area-list-item-bottom">
+                  <h5>Mechanism</h5>
+                  <div>
+                    <p>Reporting and accountingof extra-EU imported goods emissions</p>
+					 <h6>Requirements</h6>
+					 <p>Quaterly Disclosure of emissions </p>
+					 <p>CBAM Certificates</p>
+					 <p>Deduction of Carbon Prices</p>
+					 
+					 <h6>Product Categorie</h6>
+					 <p>Aluminium</p>
+					 <p>Iron & Steel</p>
+					 <p>Cement</p>
+					 <p>Electricity</p>
+					 <p>Hydrogen</p>
+					 <p>Fertilizer</p>
+                  </div>
+                </div>
+              </div>
+              <div className="choose__us-area-list-item bg-light-green-artm">
+                <div className="choose__us-area-list-item-bottom">
+                  <h5>Impact</h5>
+                  <div>
+                    <p>Same price for carbon emission related to production activities</p>
+					 <h6>Direct Impacts</h6>
+					 <p><strong>CBAM Compilance</strong> CBAM data and certificates</p>
+					 <h6>Indirect Impacts</h6>
+					 <p><strong>Carbon Costs</strong> Carbon content of imported goods.</p>
+					 <p><strong>Price Adjustments</strong> Higher prices for high carbon content.</p>
+					 <p><strong>Competitive Advantage</strong> Green technologies and sustainable supply-chain.</p>
+					 <p><strong>Offshoring and purchasing strategies</strong> Decarbonization of purchasing and intercompany trades.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
+	  
     </div>
   );
 };

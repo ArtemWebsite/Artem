@@ -35,6 +35,17 @@
       "static/chunks/main-app.js",
       "static/css/app/cbam-installation/page.css",
       "static/chunks/app/cbam-installation/page.js"
+    ],
+    "/cbam/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/cbam/page.css",
+      "static/chunks/app/cbam/page.js"
+    ],
+    "/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/not-found.js"
     ]
   }
 }
