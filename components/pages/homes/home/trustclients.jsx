@@ -118,25 +118,25 @@ const Trustclients = () => {
             <div className="d-flex flex-col">
               <button
                 type="button"
-                classNane="btn btn-secondary btn-lg btn-block"
+                className="btn btn-secondary btn-lg btn-block"
               >
                 Operators
               </button>
               <button
                 type="button"
-                classNane="btn btn-secondary btn-lg btn-block"
+                className="btn btn-secondary btn-lg btn-block"
               >
                 Declarants
               </button>
               <button
                 type="button"
-                classNane="btn btn-secondary btn-lg btn-block"
+                className="btn btn-secondary btn-lg btn-block"
               >
                 Verifiers
               </button>
               <button
                 type="button"
-                classNane="btn btn-secondary btn-lg btn-block"
+                className="btn btn-secondary btn-lg btn-block"
               >
                 Consultants
               </button>
