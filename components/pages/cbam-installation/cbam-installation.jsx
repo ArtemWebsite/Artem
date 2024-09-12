@@ -188,9 +188,7 @@ const CbamInstallationMain = () => {
                 <div className="cbam__banner_text">
                   <img className="icon-small2" src={vector2.src} />
                   <p className="text-center">
-                    A CBAM compliant and easy to use CBAM Reporting Tool that
-                    will access the ARTEM database of real data from the
-                    installations directly.
+                    A CBAM compliant and easy to use CBAM Reporting Tool, customisable to your specific installation, that will guide your personnel through reporting your installations’ emissions data with a few clicks.
                   </p>
                 </div>
               </div>
@@ -200,8 +198,7 @@ const CbamInstallationMain = () => {
                 <div className="cbam__banner_text">
                 <img className="icon-small2" src={vector1.src} />
                   <p className="text-center">
-                    Assistance with communicating with suppliers and
-                    intermediaries to get the data you need fast.
+                    Assistance with communicating the relevant information to your suppliers fast to preserve your competitive edge;
                   </p>
                 </div>
               </div>
@@ -211,8 +208,7 @@ const CbamInstallationMain = () => {
                 <div className="cbam__banner_text">
                 <img className="icon-small2" src={vector2.src} />
                   <p className="text-center">
-                    Assistance with minimising your liabilities under CBAM by
-                    identifying suppliers with lower emissions.
+                    Support for verifying your emissions data, including with ARTEM Virtual Verification Module.
                   </p>
                 </div>
               </div>
@@ -222,8 +218,7 @@ const CbamInstallationMain = () => {
                 <div className="cbam__banner_text">
                 <img className="icon-small2" src={vector1.src} />
                   <p className="text-center">
-                    Assistance with communicating with suppliers and
-                    intermediaries to get the data you need fast.
+                    Assistance in identifying and reducing your emissions with the ARTEM CEMS System.
                   </p>
                 </div>
               </div>
@@ -233,8 +228,7 @@ const CbamInstallationMain = () => {
                 <div className="cbam__banner_text">
                 <img className="icon-small2" src={vector2.src} />
                   <p className="text-center">
-                    Assistance with minimising your liabilities under CBAM by
-                    identifying suppliers with lower emissions.
+                    Our local subsidiary will ensure that your data is safely stored, and compliant with local laws.
                   </p>
                 </div>
               </div>
@@ -249,21 +243,21 @@ const CbamInstallationMain = () => {
             <div className="col-xl-12 mb-5 p-4 bg-light">
               <div className="cbam__banner_text">
                 <h3 className="text-center">
-                  Traceability of Emission Data from Installation
+                  Help Importers to easily submit the CBAM Declarations with primary data
                 </h3>
               </div>
             </div>
             <div className="col-xl-12 mb-5 p-4 bg-light">
               <div className="cbam__banner_text">
                 <h3 className="text-center">
-                  Transparent Process of Data collection.
+                  Price advantage through precise CBAM calculation
                 </h3>
               </div>
             </div>
             <div className="col-xl-12 mb-5 p-4 bg-light">
               <div className="cbam__banner_text">
                 <h3 className="text-center">
-                  Clear Allocation of Reporting Responsibilites
+                  Turn CBAM into an opportunity to outcompete others
                 </h3>
               </div>
             </div>
