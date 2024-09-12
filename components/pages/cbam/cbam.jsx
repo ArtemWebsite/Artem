@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import "./cbam.css";
 import cbamImage from "../../../public/assets/img/cbam/What-is-CBAM.png";
-import cbamImage2 from "../../../public/assets/img/cbam/cbam-2.png";
+import cbamImage2 from "../../../public/assets/img/cbam/CBAM-2.png";
 import shipImage from "../../../public/assets/img/cbam/data.jpg";
 import cbamaim from "../../../public/assets/img/cbam/CBAM-aim.png";
 import builder3 from "../../../public/assets/img/cbam/builder3.png";
