@@ -1,8 +1,5 @@
 import React from "react";
-// import Step1Image from '../../../../public/assets/img/pages/timeline1.png';
-// import Step2Image from '../../../../public/assets/img/pages/timeline2.png';
-// import Step3Image from '../../../../public/assets/img/pages/timeline3.png';
-// import Step4Image from '../../../../public/assets/img/pages/timeline4.png';
+
 
 import image1 from "../../../../public/assets/img/pages/timeline1.png";
 import image2 from "../../../../public/assets/img/pages/timeline2.png";

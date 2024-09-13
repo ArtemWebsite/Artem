@@ -1,13 +1,9 @@
 import Link from "next/link";
 import { useState } from "react";
 import ModalVideo from "react-modal-video";
+import vector1 from "../../../../public/assets/img/cbam/vector1.png";
+import vector2 from "../../../../public/assets/img/cbam/vector2.png";
 
-import CircleBar from "../../common/circle-bar";
-import shape1 from "../../../../public/assets/img/shape/shape-11.png";
-import shape2 from "../../../../public/assets/img/shape/shape-11-dark.png";
-import shape3 from "../../../../public/assets/img/shape/shape-12.png";
-import image1 from "../../../../public/assets/img/about/carbon.jpg";
-import image2 from "../../../../public/assets/img/about/cbam.jpg";
 import scope1 from "../../../../public/assets/img/about/Aluminium.jpg";
 import scope2 from "../../../../public/assets/img/about/steel.jpg";
 import scope3 from "../../../../public/assets/img/about/cement.jpg";
@@ -23,46 +19,54 @@ const About = () => {
   return (
     <>
       <div className="about__one section-padding pt-0">
-        <img className="about__one-shape dark-n" src={shape1.src} alt="shape" />
-        <img
-          className="about__one-shape light-n"
-          src={shape2.src}
-          alt="shape"
-        />
         <div className="container">
           <div className="row al-center">
             <div className="col-xl-6 col-lg-5 lg-mb-25">
-              <div className="about__one-left">
-                <div className="about__one-left-image dark_image">
-                  <img src={image2.src} alt="about-image" />
-                  <img
-                    className="about__one-left-image-shape"
-                    src={shape3.src}
-                    alt="shape"
-                  />
-                  <div className="about__one-left-image-two">
-                    <img src={image1.src} alt="about-image" />
-                  </div>
-                  <div className="about__one-left-image-content">
-                    <CircleBar progressBar={100} />
-                    <h6>Short Project Implementation Time</h6>
-                  </div>
+            <div className="row">
+            <div className="col-lg-6 col-md-6 rounded mb-3">
+              <div className="col-xl-12 bg-light-green-artm p-4">
+                <div className="cbam__banner_text">
+                <img className="icon-small2" src={vector2.src} />
+                  <p className="text-center">
+                  Access Emission Data of your supplier and your supplier’s suppliers <span className="color-green-artm">WORLDWIDE </span>
+                  </p>
                 </div>
               </div>
             </div>
-            <div className="col-xl-6 col-lg-7">
-              <div className="about__one-right">
-                <div className="about__one-right-title">
-                  <span className="subtitle-one">What is Artem?</span>
-                  <h2>A solution to CBAM & Carbon leakage</h2>
-                  <p>
-                    ARTEM provides a technological solution that combats carbon
-                    leakage, enables CBAM compliance and facilitates the
-                    transition to net zero manufacturing on a global scale,
-                    starting with China
+            <div className="col-lg-6 col-md-6 rounded mb-3">
+              <div className="col-xl-12 bg-light-blue-artm p-4">
+                <div className="cbam__banner_text">
+                <img className="icon-small2" src={vector1.src} />
+                  <p className="text-center">
+                  Guaranteed <span className="color-blue-artm">emission data</span> integrity through Supplier-onsite collection module. 
                   </p>
                 </div>
-
+              </div>
+            </div>
+            <div className="col-lg-6 col-md-6 rounded">
+              <div className="col-xl-12 bg-light-blue-artm p-4">
+                <div className="cbam__banner_text">
+                <img className="icon-small2" src={vector2.src} />
+                  <p className="text-center">
+                  Producers that fail to adopt technologies that emit fewer greenhouse gases will   to their competitors.  
+                  </p>
+                </div>
+              </div>
+            </div>
+			 <div className="col-lg-6 col-md-6 rounded">
+              <div className="col-xl-12 bg-light-green-artm p-4">
+                <div className="cbam__banner_text">
+                <img className="icon-small2" src={vector1.src} />
+                  <p className="text-center">
+                  Guaranteed Data confidentiatliy through <span className="color-green-artm">Peer to Peer</span> data transfer channels  
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+            </div>
+            <div className="col-xl-6 col-lg-7">
+              <div className="about__one-right">
                 <div className="about__scope-of-application">
                   <div className="row">
                     <span className="application-text">

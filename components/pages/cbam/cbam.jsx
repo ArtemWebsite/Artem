@@ -9,6 +9,7 @@ import cbamaim from "../../../public/assets/img/cbam/CBAM-aim.png";
 import builder3 from "../../../public/assets/img/cbam/builder3.png";
 import cbamMainBg from "../../../public/assets/img/shape/shape-4.png";
 import TestimonialMain from "../testimonial/testimonial";
+import CbamTimeline from "./cbam-timeline";
 
 const CBAM = () => {
   return (
@@ -324,6 +325,7 @@ const CBAM = () => {
           </div>
         </div>
       </section>
+      <CbamTimeline/>
 	  
     </div>
   );
