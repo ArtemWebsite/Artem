@@ -1,34 +1,30 @@
-import Link from 'next/link';
-import teamData from '../../../data/team-data';
+import teamData from "@/components/data/team-data";
+import Link from "next/link";
 
 const TeamMain = () => {
     return (
         <>
-            <div className="team__area section-padding-three">
+            <div className="team__two section-padding-three">
                 <div className="container">
-                    <div className="row dark_image">
-                        {teamData?.map((data, id) => (
-                        <div className="col-lg-4 col-md-6 mb-35" key={id}>
-                            <div className="team__one-item">
-                                <div className="team__one-item-image">
-                                    <img src={data.image.src} alt="image" />
-                                    <div className="team__one-item-image-content">
-                                        <div className="team__one-item-image-icon">
-                                            <span><i className="fas fa-share-alt"></i></span>
-                                            <div className="team__one-item-image-social">
-                                                <ul>
-                                                    {data.social_link.map((social, id) => (
-                                                        <li key={id}><Link href={social.link} target={social.target}>{social.icon}</Link></li>
-                                                    ))}
-                                                </ul>
-                                            </div>
+                <h2 className="mb-5 text-center">
+                  Meet Our
+                  <span className="color-green-artm"> Team </span> 
+                </h2>
+                    <div className="row dark_image text-center justify-content-center">
+                        {teamData.map((data, id) => (
+                            <div className="col-lg-3 col-md-6" key={id}>
+                                <div className="team__two-item">
+                                    <div className="team__two-item-image">
+                                            <img src={data.image.src} alt="team-image" />
+                                    </div>
+                                    <div className="team__two-item-content">
+                                        <div>
+                                            <h6><Link href={`/team/${data.id}`}>{data.name}</Link></h6>
+                                            <span>{data.position}</span>
                                         </div>
-                                        <h6><Link href={`/team/${data.id}`}>{data.name}</Link></h6>
-                                        <span>{data.position}</span>
                                     </div>
                                 </div>
                             </div>
-                        </div>
                         ))}
                     </div>
                 </div>

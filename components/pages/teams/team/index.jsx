@@ -6,7 +6,7 @@ import TeamMain from "./team";
 import FooterOne from "@/components/layout/footers/footer-one";
 import ScrollToTop from "../../common/scroll/scroll-to-top";
 import SwitchTab from "../../common/dark-light";
-import TeamTwo from "./team-2";
+
 
 const TeamPage = () => {
   return (
@@ -15,7 +15,7 @@ const TeamPage = () => {
 
       <HeaderOne />
 
-      <TeamTwo />
+      <TeamMain />
       <FooterOne />
       <ScrollToTop />
     </>
