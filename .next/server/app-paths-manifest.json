@@ -1,7 +1,7 @@
 {
-  "/cbam-declarants/page": "app/cbam-declarants/page.js",
-  "/cbam-importer/page": "app/cbam-importer/page.js",
-  "/cbam-accredited-verifier/page": "app/cbam-accredited-verifier/page.js",
-  "/cbam-installation/page": "app/cbam-installation/page.js",
-  "/cbam/page": "app/cbam/page.js"
+  "/cbam/page": "app/cbam/page.js",
+  "/team/page": "app/team/page.js",
+  "/[not-found]/page": "app/[not-found]/page.js",
+  "/team-two/page": "app/team-two/page.js",
+  "/team-three/page": "app/team-three/page.js"
 }

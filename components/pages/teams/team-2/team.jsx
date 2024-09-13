@@ -6,9 +6,13 @@ const TeamMain = () => {
         <>
             <div className="team__two section-padding-three">
                 <div className="container">
+                <h2 className="mb-5 text-center">
+                  Meet Our
+                  <span className="color-green-artm"> Team </span> 
+                </h2>
                     <div className="row dark_image">
                         {teamData.map((data, id) => (
-                            <div className="col-lg-4 col-md-6" key={id}>
+                            <div className="col-lg-3 col-md-6" key={id}>
                                 <div className="team__two-item">
                                     <div className="team__two-item-image">
                                             <img src={data.image.src} alt="team-image" />
