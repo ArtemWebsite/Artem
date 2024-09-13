@@ -37,6 +37,22 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/team-three/page.js"
+    ],
+    "/about-us/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/about-us/page.js"
+    ],
+    "/cbam-declarants/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/cbam-declarants/page.css",
+      "static/chunks/app/cbam-declarants/page.js"
+    ],
+    "/request-quote/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/request-quote/page.js"
     ]
   }
 }

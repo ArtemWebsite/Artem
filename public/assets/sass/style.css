@@ -3508,7 +3508,6 @@ ul {
   top: -2px;
   width: 4000px;
   height: 94px;
-  background: var(--body-color);
 
   z-index: -1;
 }
@@ -6863,16 +6862,12 @@ Responsive Menu Css
 }
 .team__two-item-content {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 30px 20px;
-  margin: 0 30px;
   box-shadow: 0 0 60px rgba(var(--border-color-3), 0.08);
   background: var(--bg-white);
-  position: relative;
-  z-index: 1;
-  margin-top: -50px;
   border-radius: 10px;
+  align-items: center;
 }
 .team__two-item-content-icon {
   position: relative;

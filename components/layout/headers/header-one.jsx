@@ -6,6 +6,7 @@ import Search from "./search";
 import { useState } from "react";
 import SideBar from "./offcanvas";
 import logo1 from "../../../public/assets/img/logo.png";
+import logo from "../../../public/assets/img/logo-main.png";
 import logo2 from "../../../public/assets/img/logo-2.png";
 import MobileMenuPopup from "./mobile-menu/menu-area";
 
@@ -15,45 +16,14 @@ const HeaderOne = () => {
   const [search, setSearch] = useState(false);
   return (
     <>
-      <div className="topBar__one">
-        <div className="custom__container">
-          <div className="row al-center">
-            <div className="col-lg-8">
-              <div className="topBar__one-left lg-t-center">
-                <ul>
-                  <li>
-                    <Link href="mailto:nanxi.ding@artem.earth">
-                      <i className="flaticon-envelope"></i>
-                      nanxi.ding@artem.earth
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="https://google.com/maps">
-                      <i className="flaticon-placeholder"></i>Unit C, 7/F,
-                      Queen’s Centre,58-64 Queen’s Road East,Hong Kong SAR
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            {/* <div className="col-lg-4">
-              <div className="topBar__one-right t-right lg-t-center">
-                <div className="topBar__one-right-social">
-                  <h6>Follow Us</h6>
-                  <Social />
-                </div>
-              </div>
-            </div> */}
-          </div>
-        </div>
-      </div>
+   
       <div className="header__area">
         <div className="custom__container">
           <div className="header__area-menubar">
             <div className="header__area-menubar-left one">
               <div className="header__area-menubar-left-logo">
                 <Link href="/">
-                  <img src={logo1.src} alt="logo" />
+                  <img src={logo.src} alt="logo" />
                 </Link>
               </div>
             </div>
@@ -63,15 +33,7 @@ const HeaderOne = () => {
               </div>
             </div>
             <div className="header__area-menubar-right">
-              <div className="header__area-menubar-right-search"></div>
-              <div className="header__area-menubar-right-sidebar">
-                <div
-                  className="header__area-menubar-right-sidebar-popup-icon"
-                  onClick={() => setSidebarOpen(true)}
-                >
-                  <i className="flaticon-menu-2"></i>
-                </div>
-              </div>
+             
               <div className="header__area-menubar-right-btn">
                 <Link className="btn-one" href="/request-quote">
                   Request a Demo

@@ -10,7 +10,7 @@ const TeamMain = () => {
                   Meet Our
                   <span className="color-green-artm"> Team </span> 
                 </h2>
-                    <div className="row dark_image">
+                    <div className="row dark_image text-center justify-content-center">
                         {teamData.map((data, id) => (
                             <div className="col-lg-3 col-md-6" key={id}>
                                 <div className="team__two-item">
@@ -21,16 +21,6 @@ const TeamMain = () => {
                                         <div>
                                             <h6><Link href={`/team/${data.id}`}>{data.name}</Link></h6>
                                             <span>{data.position}</span>
-                                        </div>
-                                        <div className="team__two-item-content-icon">
-                                            <span className="fa-sharp fa-regular fa-share-nodes"></span>
-                                            <div className="team__two-item-content-social">
-                                                <ul>
-                                                    {data.social_link.map((social, id) => (
-                                                        <li key={id}><Link href={social.link} target={social.target}>{social.icon}</Link></li>
-                                                    ))}
-                                                </ul>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
