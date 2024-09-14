@@ -10731,3 +10731,20 @@ p.textdata {
 .icon-small2 {
   width: 22px;
 }
+.icon-mark {
+  background: #fff;
+  padding: 0px 10px;
+  border-radius: 50%;
+}
+.border-light-red-artm {
+  border: 2px solid #FFD6D6;
+}
+.border-light-green-artm {
+  border: 2px solid #d8f3ee;
+}
+.bg-light-green-artm li::marker {
+  color: #74D5C2;
+}
+.bg-light-blue-artm li::marker {
+  color: #1F3042;
+}

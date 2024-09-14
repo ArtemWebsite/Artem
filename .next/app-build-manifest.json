@@ -41,10 +41,20 @@
       "static/css/app/cbam-declarants/page.css",
       "static/chunks/app/cbam-declarants/page.js"
     ],
-    "/not-found": [
+    "/contact/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/not-found.js"
+      "static/chunks/app/contact/page.js"
+    ],
+    "/request-quote/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/request-quote/page.js"
+    ],
+    "/team/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/team/page.js"
     ]
   }
 }

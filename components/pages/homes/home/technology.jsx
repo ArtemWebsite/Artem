@@ -34,30 +34,28 @@ const Technology = () => {
 			<div className="col-lg-6 col-md-6 rounded mb-3">
 			<div className="col-xl-12 p-2 bg-light-red-artm">
 			<div className="dflex align-items-baseline">
-			<div className=""></div>
-			  <p>Leads to overall higher carbon tax
-			  </p>
+			<div className="icon-mark border-light-red-artm">X</div>
+			  Leads to overall higher carbon tax
 			  </div>
 			  </div>
             </div>
 			<div className="col-lg-6 col-md-6 rounded mb-3">
 			<div className="col-xl-12 p-2 bg-light-green-artm">
 			<div className="dflex align-items-baseline">
-			<div className=""></div>
-			  <p>Results in optimized pricing and less tax
-			  </p>
+			<div className="icon-mark border-light-green-artm">✓</div>
+			  Results in optimized pricing and less tax 
 			  </div>
 			  </div>
             </div>
 			 <div className="col-lg-6 col-md-6 rounded mb-3">
 			 <div className="col-xl-12 p-4  bg-light-green-artm">
 			<ul>
-			<li>Micro-flow NDIR technology to measure SO2, NO, Co, CO2 and o2 simultaneously.</li>
-			<li>Large and easy to replace filtering area for sampling gas probes</li>
-			<li>Built-in PLC control system including adjustable data output and defect diagnosis</li>
-			<li>Direct data connection to ARTEM for storage, analysis and presentation</li>
+			<li><span className="color-green-artm">Micro-flow NDIR technology</span> to measure SO2, NO, Co, CO2 and o2 simultaneously.</li>
+			<li>Large and <span className="color-green-artm">easy to replace filtering area</span> for sampling gas probes</li>
+			<li>Built-in PLC control system including <span className="color-green-artm">adjustable data output</span> and defect diagnosis</li>
+			<li>Direct <span className="color-green-artm">data connection to ARTEM</span> for storage, analysis and presentation</li>
 			</ul>
-			</div>
+			</div> 
             </div>
             <div className="col-lg-6 col-md-6 rounded mb-3">
 			<div className="col-xl-12 p-4  bg-light-blue-artm">
