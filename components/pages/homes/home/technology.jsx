@@ -7,7 +7,7 @@ const Technology = () => {
       <div className="about__one section-padding pt-0">
         <div className="container">
           <div className="row justify-content-space-around">
-		  <div className="col-xl-12">
+		  <div className="col-xl-12 text-center">
               <div className="mb-5">
                 <h2 className="mb-5">
                 Technology | Hardware

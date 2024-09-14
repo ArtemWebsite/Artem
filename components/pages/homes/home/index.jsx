@@ -12,7 +12,7 @@ import Technology from "./technology";
 import ScrollToTop from "../../common/scroll/scroll-to-top";
 import Head from "next/head";
 import Features from "./features";
-
+import ArtemPioneer from "./pioneers";
 import bgImage from "../../../../public/assets/img/shape/shape-9.png";
 import "./home.css";
 import styles from "./UnderConstruction.module.css";
@@ -28,6 +28,7 @@ const HomeOne = () => {
       <About />
       <Certificate />
       <Technology />
+      <ArtemPioneer />
       <FooterOne />
       <ScrollToTop />
     </div>
