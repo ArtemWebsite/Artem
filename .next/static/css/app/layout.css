@@ -11702,6 +11702,11 @@ p.textdata {
 .bg-theme-green {
   background-color: #74D5C2;
 }
+.bg-light-red-artm {
+  background-color: #FFE9E9;
+  border: 2px solid #FFD6D6;
+  border-radius: 20px;
+}
 .bg-theme-light-blue {
   background-color: #F1F5F8;
 }

@@ -18,8 +18,8 @@ cross-border CBAM Compliance
                 </p>
               </div>
             </div>
-            <div className="col-lg-6 col-md-6 rounded mb-3 bg-light-blue-artm mb-3">
-			<div className="col-xl-12 p-4">
+            <div className="col-lg-6 col-md-6 rounded mb-3">
+			<div className="col-xl-12 p-4 bg-light-blue-artm">
 			 <i className="flaticon-deal"></i>
 			  <h6>CBAM Compilance Tool</h6>
 			  <ul>
@@ -29,8 +29,8 @@ cross-border CBAM Compliance
               </ul>
 			  </div>
             </div>
-            <div className="col-lg-6 col-md-6 rounded mb-3 bg-light-green-artm mb-3">
-			<div className="col-xl-12 p-4">
+            <div className="col-lg-6 col-md-6 rounded mb-3">
+			<div className="col-xl-12 p-4 bg-light-green-artm">
 			<i className="flaticon-deal"></i>
 			  <h6>CEMS Monitoring </h6>
 			  <ul>
@@ -41,8 +41,8 @@ cross-border CBAM Compliance
 			  </div>
             </div>
 			
-			 <div className="col-lg-6 col-md-6 rounded mb-3 bg-light-green-artm">
-			 <div className="col-xl-12 p-4">
+			 <div className="col-lg-6 col-md-6 rounded mb-3">
+			 <div className="col-xl-12 p-4 bg-light-green-artm">
              <i className="flaticon-deal"></i>
              <h6>Carbon Database using actual local data</h6>
 			<ul>
@@ -50,8 +50,8 @@ cross-border CBAM Compliance
 			</ul>
 			</div>
             </div>
-            <div className="col-lg-6 col-md-6 rounded mb-3 bg-light-blue-artm">
-			<div className="col-xl-12 p-4">
+            <div className="col-lg-6 col-md-6 rounded mb-3">
+			<div className="col-xl-12 p-4 bg-light-blue-artm">
             <i className="flaticon-deal"></i>
             <h6>Certified Emission Data Verification</h6>
 			<ul>

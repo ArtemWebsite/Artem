@@ -11,6 +11,35 @@
       "static/chunks/main-app.js",
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
+    ],
+    "/about-us/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/about-us/page.js"
+    ],
+    "/cbam-installation/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/cbam-installation/page.css",
+      "static/chunks/app/cbam-installation/page.js"
+    ],
+    "/cbam-importer/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/cbam-importer/page.css",
+      "static/chunks/app/cbam-importer/page.js"
+    ],
+    "/cbam-accredited-verifier/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/cbam-accredited-verifier/page.css",
+      "static/chunks/app/cbam-accredited-verifier/page.js"
+    ],
+    "/cbam-declarants/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/cbam-declarants/page.css",
+      "static/chunks/app/cbam-declarants/page.js"
     ]
   }
 }

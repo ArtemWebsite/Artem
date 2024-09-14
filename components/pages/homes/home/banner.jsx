@@ -51,10 +51,10 @@ const BannerOne = () => {
                       EU Regulation (EU) 2023/956 Carbon Border Adjustment Mechanism “CBAM”  
                       </p>
                       <div className={styles.banner__one_content_button}>
-                        <Link className="btn-one" href="/about-us">
+                        <Link className="btn-one me-3" href="/about-us">
                         ARTEM CBAM Reporting Tool
                         </Link>
-                        <Link className="btn-one" href="/about-us">
+                        <Link className="btn-three" href="/about-us">
                         ARTEM Methane Reporting Tool
                         </Link>
                       </div>

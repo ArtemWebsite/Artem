@@ -1,4 +1,8 @@
 {
   "/page": "app/page.js",
+  "/cbam-installation/page": "app/cbam-installation/page.js",
+  "/cbam-importer/page": "app/cbam-importer/page.js",
+  "/cbam-accredited-verifier/page": "app/cbam-accredited-verifier/page.js",
+  "/cbam-declarants/page": "app/cbam-declarants/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js"
 }
