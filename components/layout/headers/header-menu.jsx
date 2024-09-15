@@ -32,45 +32,41 @@ const MainMenu = () => {
             <li>
               <Link href="/cbam">What is CBAM</Link>
             </li>
-            <li>
-              <Link href="#">CBAM Obligations</Link>
-            </li>
+           
           </ul>
         </li>
         <li className="menu-item-has-children">
           <Link href="#">PRODUCT</Link>
           <ul className="sub-menu">
             <li>
-              <Link href="#">CBAM Reporting</Link>
+              <Link href="/contact">ARTEM Reporting Tool</Link>
             </li>
             <li>
-              <Link href="#">CBAM CEMS System</Link>
+              <Link href="/coming-soon">ARTEM CEMS System</Link>
             </li>
             <li>
-              <Link href="#">CBAM Virtual Verification</Link>
+              <Link href="/coming-soon">CBAM Virtual Verification</Link>
             </li>
             <li>
-              <Link href="#">CBAM Studies</Link>
+              <Link href="/coming-soon">CBAM Studies</Link>
             </li>
           </ul>
         </li>
         <li className="menu-item-has-children">
           <Link href="/">ABOUT US</Link>
           <ul className="sub-menu">
-            <li>
+            {/* <li>
               <Link href="#">Company</Link>
-            </li>
+            </li> */}
             <li>
               <Link href="/team">Team</Link>
             </li>
-            <li>
-              <Link href="#">Career</Link>
-            </li>
+           
           </ul>
         </li>
 
         <li className="menu-item">
-          <Link href="/">CONTACT</Link>
+          <Link href="/contact">CONTACT US</Link>
         </li>
       </ul>
     </>

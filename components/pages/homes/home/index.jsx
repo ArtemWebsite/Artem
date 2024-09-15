@@ -17,6 +17,10 @@ import BottomImage from "./bottom-img";
 import bgImage from "../../../../public/assets/img/shape/shape-9.png";
 import "./home.css";
 import styles from "./UnderConstruction.module.css";
+import ImageWithText from "./styles/image-with-text";
+import MeasurementTable from "./measuring";
+import ProductionRoutesTable from "./production-example";
+import Bayer from "./bayer";
 const HomeOne = () => {
   return (
     <div>
@@ -29,8 +33,12 @@ const HomeOne = () => {
       <About />
       <Certificate />
       <Technology />
+      <ImageWithText/>
+      <MeasurementTable></MeasurementTable>
       <ArtemPioneer />
       <BottomImage />
+      <ProductionRoutesTable></ProductionRoutesTable>
+      <Bayer></Bayer>
       <FooterOne />
       <ScrollToTop />
     </div>

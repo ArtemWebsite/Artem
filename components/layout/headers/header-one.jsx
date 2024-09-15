@@ -35,7 +35,7 @@ const HeaderOne = () => {
             <div className="header__area-menubar-right">
              
               <div className="header__area-menubar-right-btn">
-                <Link className="btn-one" href="/request-quote">
+                <Link className="btn-one" href="/contact">
                   Request a Demo
                 </Link>
               </div>

@@ -56,7 +56,7 @@ const FooterOne = () => {
       >
         <div className="container">
           <div className="row">
-            <div className="col-lg-3 col-md-5 lg-mb-25">
+            <div className="col-lg-4 col-md-5 lg-mb-33">
               <div className="footer__area-widget">
                 <div className="logo">
                   <Link href="/">
@@ -65,36 +65,44 @@ const FooterOne = () => {
                 </div>
                 <div className="footer__area-widget-company">
                   <p>
-                    <Link href="https://google.com/maps">
-                      Artem Limited
+                   
+                    Artem Technology Limited (Hong Kong)
                       <br />
                       Unit C, 7/F, Queen’s Centre,
                       <br />
                       58-64 Queen’s Road East,
                       <br />
                       Hong Kong SAR
-                    </Link>
+                    <br/>
+                    ARTEM Technologie AG (Switzerland)
+                    <br/>
+                    Sinserstraße 67, 6770 Cham Zug, Switzerland
                   </p>
                   <div className="social__icon mt-60"></div>
                 </div>
               </div>
             </div>
-            <div className="col-lg-5 col-md-7">
+            <div className="col-lg-8 col-md-7">
               <div className="row">
-                <div className="col-sm-6 col-12 sm-mt-25">
+                <div className="col-sm-6 col-12 sm-mt-33">
                   <div className="footer__area-widget">
-                    <h6>Phone</h6>
+                  
                     <div className="footer__area-widget-info mb-35">
-                      <p>
-                        <Link href="tel:+49 1724817216">+49 1724817216</Link>
-                      </p>
-                      <p>
-                        <Link href="tel:+852 67674122">+852 67674122 (HK)</Link>
-                      </p>
+                    <ul>
+                        <li>
+                        Impressum 
+                        </li>
+                        <li>
+                        Data Protection
+                        </li>
+                        <li>
+                        Downloads
+                        </li>
+                      </ul>
                     </div>
                   </div>
                 </div>
-                <div className="col-sm-6 col-12 sm-mt-25">
+                <div className="col-lg-3 col-sm-6 col-12 sm-mt-33">
                   <div className="footer__area-widget">
                     <h6>Resources</h6>
                     <div className="footer-widget-menu">
@@ -114,18 +122,7 @@ const FooterOne = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 lg-mt-25">
-              <div className="footer__area-widget">
-                <h6>Email</h6>
-                <div className="footer__area-widget-info">
-                  <p>
-                    <Link href="mailto:nanxi.ding@artem.earth">
-                      nanxi.ding@artem.earth
-                    </Link>
-                  </p>
-                </div>
-              </div>
-            </div>
+    
           </div>
         </div>
         <div className="copyright__area lg-t-center">

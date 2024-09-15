@@ -12,28 +12,15 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/about-us/page": [
+    "/team/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/about-us/page.js"
+      "static/chunks/app/team/page.js"
     ],
-    "/cbam-installation/page": [
+    "/contact/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/cbam-installation/page.css",
-      "static/chunks/app/cbam-installation/page.js"
-    ],
-    "/cbam-importer/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/cbam-importer/page.css",
-      "static/chunks/app/cbam-importer/page.js"
-    ],
-    "/cbam-accredited-verifier/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/cbam-accredited-verifier/page.css",
-      "static/chunks/app/cbam-accredited-verifier/page.js"
+      "static/chunks/app/contact/page.js"
     ],
     "/cbam-declarants/page": [
       "static/chunks/webpack.js",
@@ -41,20 +28,27 @@
       "static/css/app/cbam-declarants/page.css",
       "static/chunks/app/cbam-declarants/page.js"
     ],
-    "/contact/page": [
+    "/[not-found]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/contact/page.js"
+      "static/chunks/app/[not-found]/page.js"
     ],
-    "/request-quote/page": [
+    "/coming-soon/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/request-quote/page.js"
+      "static/css/app/coming-soon/page.css",
+      "static/chunks/app/coming-soon/page.js"
     ],
-    "/team/page": [
+    "/cbam/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/team/page.js"
+      "static/css/app/cbam/page.css",
+      "static/chunks/app/cbam/page.js"
+    ],
+    "/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/not-found.js"
     ]
   }
 }

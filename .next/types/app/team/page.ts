@@ -1,4 +1,4 @@
-// File: C:\Users\nehad\Downloads\Artem-main\Artem\app\team\page.jsx
+// File: I:\Next Js\Artem\app\team\page.jsx
 import * as entry from '../../../../app/team/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

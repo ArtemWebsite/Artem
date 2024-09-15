@@ -3,8 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import "./cbam.css";
 import cbamImage from "../../../public/assets/img/cbam/What-is-CBAM.png";
-import cbamImage2 from "../../../public/assets/img/cbam/CBAM-2.png";
+
 import shipImage from "../../../public/assets/img/cbam/data.jpg";
+import cbamImage2 from "../../../public/assets/img/cbam/CBAM-2.png"
 import cbamaim from "../../../public/assets/img/cbam/CBAM-aim.png";
 import builder3 from "../../../public/assets/img/cbam/builder3.png";
 import cbamMainBg from "../../../public/assets/img/shape/shape-4.png";
@@ -58,8 +59,8 @@ const CBAM = () => {
             </div>
           </div>
           <div className="col-md-6 container-fluid p-0">
-            <Image
-              src={cbamImage2}
+            <img
+              src={cbamImage2.src}
               alt="CBAM Image 2"
               className="img-fluid w-100"
             />

@@ -19,7 +19,7 @@ const TeamMain = () => {
                                     </div>
                                     <div className="team__two-item-content">
                                         <div>
-                                            <h6><Link href={`/team/${data.id}`}>{data.name}</Link></h6>
+                                            <h6>{data.name}</h6>
                                             <span>{data.position}</span>
                                         </div>
                                     </div>

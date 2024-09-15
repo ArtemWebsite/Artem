@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { useState } from "react";
 import img1 from "../../../../public/assets/img/cbam/home-img.jpg";
-import img2 from "../../../../public/assets/img/cbam/certi.png";
+// import img2 from "../../../../public/assets/img/cbam/certi.png";
+import maintop from "../../../../public/assets/img/home/maintop.png";
 
 const Certificate = () => {
   return (
@@ -11,17 +12,17 @@ const Certificate = () => {
           <div className="row al-center">
             <div className="col-xl-8 col-lg-5 lg-mb-25">
               {/* Image with overlay text */}
-              <div className="image-container">
+              <div className="image-container rounded ">
                 <img src={img1.src} alt="img-with-text" />
-                <div className="overlay">
+                <div className="overlay rounded">
                   <h2 className="overlay-text">
                     Collect Emission Data onsite with our own Micro Flow NDIR sensor technology
                   </h2>
                 </div>
               </div>
             </div>
-            <div className="col-xl-4 col-lg-7">
-              <img src={img2.src} alt="certi-img" />
+            <div className="col-xl-4 col-lg-7 rounded">
+              <img src={maintop.src} alt="certi-img" className="rounded"/>
             </div>
           </div>
         </div>

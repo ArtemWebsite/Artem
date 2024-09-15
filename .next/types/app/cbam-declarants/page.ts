@@ -1,4 +1,4 @@
-// File: C:\Users\nehad\Downloads\Artem-main\Artem\app\cbam-declarants\page.jsx
+// File: I:\Next Js\Artem\app\cbam-declarants\page.jsx
 import * as entry from '../../../../app/cbam-declarants/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
